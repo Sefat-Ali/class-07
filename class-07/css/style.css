@@ -1,0 +1,119 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section code start here*/
+.header-section{
+	width: 100%;
+	height: ;
+	background: url("../images/Home.png") center top no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 100%;
+}
+.menu .navbar-nav .nav-item .nav-link{
+	color: #fffefe;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 20px;
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+	background: url("../images/Prostokąt 2.png") center bottom no-repeat;
+	background-size: auto;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+	background: url("../images/Prostokąt 2.png") center bottom no-repeat;
+	background-size: auto;
+}
+.menu .navbar-nav .nav-link.active{
+	color: #008ed6;
+	background: url("../images/Prostokąt 2.png") center bottom no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.banner .banner-inner h5{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 1px;
+	margin: 0px 0px 15px;
+}
+.banner .banner-inner h1{
+	font-size: 70px;
+	line-height: 80px;
+	font-weight: 600;
+	color: #ffffff;
+	margin: 0px 0px 15px;
+}
+.banner .banner-inner p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #999999;
+	margin: 0px 0px 15px;
+}
+.inner-btn{
+	width: 100%;
+}
+.inner-btn .btn-primary{
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 600px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #eaeaea;
+	border-radius: 1px solid #008ed6;
+	background: #008ed6;
+	margin: 0px 20px 0px 0px;
+	transition: 2s;
+}
+.inner-btn .btn-primary:hover{
+	color: #fff;
+	border-radius: 1px solid #008ed6;
+	background: transparent;
+}
+.inner-btn .btn-primary:fous{
+	color: #008ed6;
+	border-radius: 1px solid #008ed6;
+	background: transparent;
+}
+.inner-btn .btn-info{
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 600px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #eaeaea;
+	border: 1px solid #4a494c;
+	background: transparent;
+}
+.inner-btn .btn-info:hover{
+	color: #fff;
+	border-radius: 1px solid #008ed6;
+	background: #008ed6;
+}
+.inner-btn .btn-info:fous{
+	color: #fff;
+	border-radius: 1px solid #008ed6;
+	background: #008ed6;
+}
